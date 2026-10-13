@@ -1,4 +1,4 @@
-# Contributing to nirium-sdk
+# Contributing to Nirium
 
 Thank you for your interest in contributing. This repository holds the open-source developer toolkit: the TypeScript SDK, the Python SDK, the CLI, the MCP server, examples, and docs. It does not contain the agent runtime or the Soroban contracts, which are maintained privately.
 
@@ -17,8 +17,8 @@ Thank you for your interest in contributing. This repository holds the open-sour
 ### Getting Started
 
 ```bash
-git clone https://github.com/nirium-protocol/nirium-sdk.git
-cd nirium-sdk
+git clone https://github.com/nirium-protocol/nirium.git
+cd nirium
 
 # TypeScript SDK / CLI / MCP server each have their own package.json
 cd packages/sdk && npm install && npm run build
@@ -41,7 +41,7 @@ cd packages/sdk-python && pip install -e .
 ## Repository Structure
 
 ```
-nirium-sdk/
+nirium/
 ├── packages/sdk/           → TypeScript SDK (npm: nirium)
 ├── packages/sdk-python/    → Python SDK (pip: nirium)
 ├── packages/mcp/           → MCP server (npm: nirium-mcp)
