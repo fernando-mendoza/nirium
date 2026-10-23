@@ -60,4 +60,4 @@ These are the limits listed in the SDK README (from [#96](https://github.com/nir
 - **Version check is not atomic with signing.** As the SDK README says, `currentVersion()` narrows the stale-ALLOW window; it does not close it.
 - **In-memory state.** Restarting the process resets the spend. Use a durable store (see SQL above) for anything real.
 
-For a fuller engine (reserve floor, per-action caps, approvals, hash-chained audit trail), see [AgentLedger](https://useagentledger.xyz).
+For a fuller engine (reserve floor, per-action caps, approvals, hash-chained audit trail), see [AgentLedger](https://useagentledger.xyz). AgentLedger is built by Fernando Mendoza, who also contributes to Nirium.
